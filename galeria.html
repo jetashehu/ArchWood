@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+		integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+ <video autoplay loop="1" muted id="video" width="100">
+            <source src="wood.mp4" type="video/mp4">
+         </video>
+<body>
+
+	<nav>
+	<div style="float: left; margin: -5px 0px 30px 20px; position: absolute;">
+
+		<a href="index.html"><img src="logo-fund.png " width="160px" height="80px" style="box-shadow: 13px 15px 18px 0px black;" ></a></div>
+	<ul>
+		<div style="width: 20%"><li>
+			<a href="index.html">Home</a>
+		</li></div>
+		<div style="width: 20%"><li>
+			<a href="galeria.html">Galeri</a>
+		</li></div>
+		<div style="width: 20%"><li>
+			<a href="kontakti.html">Kontakti</a>
+		</li></div>
+		<div style="width: 20%"><li>
+			<a href="perne.html">Per ne</a>
+		</li></div>
+		<div style="width: 20%"><li>
+			<a href="login.html">Login</a></li></div>
+	</ul>
+</nav>
+
+	<div class="galeria">
+		<button class="slideshowbtn" onclick="para(0)"> < </button>
+		<div id="slideshowpara">
+		
+		<img src="photo1.jpg" class="fotot" width="300px" height="350px">
+		<img src="photo2.jpg" class="fotot" width="300px" height="350px">
+		<img src="photo3.jpg" class="fotot" width="300px" height="350px">
+	
+		</div>	
+		
+		<div id="slideshowpas">
+			<img src="photo4.jpg" class="fotot" width="300px" height="350px">
+			<img src="photo5.jpg" class="fotot" width="300px" height="350px">
+			<img src="photo6.jpg" class="fotot" width="300px" height="350px">
+		</div>
+		
+		<button class="slideshowbtn" onclick="pas(1)"> > </button>
+
+	</div>
+
+
+	<footer>
+<div style="width: 60%; float: left; margin-top: 15px;">
+	<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f social fa-2x" style="color: lightgrey;"></i></a>
+	<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter social fa-2x" style="color: lightgrey;"></i></a>
+	<a href="https://www.google.com/" target="_blank"><i class="fab fa-google-plus-g social fa-2x" style="color: lightgrey;"></i></a>
+	<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram social fa-2x" style="color: lightgrey;"></i></a>
+	<a href="https://www.github.com/" target="_blank"><i class="fab fa-github social fa-2x" style="color: lightgrey;"></i></a>
+	<a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp social fa-2x" style="color: lightgrey;"></i></a>
+</div>
+
+<div style="width:40%; text-align: center; ">
+	<h3 style="color: white;">Te gjitha te drejtat e rezervuara ©</h3>
+</div>
+	
+</footer>
+
+</body>
+
+<script>
+	slideshowpara = document.getElementById('slideshowpara');
+	slideshowpas = document.getElementById('slideshowpas');
+
+	function para(num){
+		if(num == 0){
+			slideshowpara.style.display = "block";
+			slideshowpas.style.display = "none";
+		}else{
+			slideshowpara.style.display = "none";
+			slideshowpas.style.display = "block";
+		}
+	}
+	function pas(num){
+		if(num == 1){
+			slideshowpara.style.display = "none";
+			slideshowpas.style.display = "block";
+		}else{
+			slideshowpara.style.display = "block";
+			slideshowpas.style.display = "none";
+		}
+	}
+</script>
+</html>

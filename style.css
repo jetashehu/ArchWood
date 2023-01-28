@@ -1,0 +1,180 @@
+body{
+	padding: 0;
+	margin: 0px 0px 0px 0px;
+}
+
+
+nav{
+background-color: rgba(120, 118, 114 ,0.8);
+	color: black;
+	overflow: hidden;
+
+	width: 100%;
+
+}
+video{
+
+	object-fit: cover;
+	position: fixed;
+	opacity: 0.85;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+ul{
+	padding-left: 30%;
+
+	justify-content:center;
+	display: inline-flex;
+    }
+
+ul li{
+	list-style:none;
+	display: inline;
+	padding: 40px;
+}
+
+a{
+	
+	color: black;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color:rgba(120, 118, 114,0.8);
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	opacity: 0.8;
+	display: inline-flex;
+
+}
+
+/* Home */
+.home{
+	background-color: rgba(120, 118, 114, 0.0);
+	width: 100%;
+	margin-top: 180px;
+	margin-right: 50px;
+	margin-left: 350px;
+	position: fixed;
+}
+.home1{
+	background-color: rgba(120, 118, 114, 0.0);
+	width: 100%;
+	margin-top: 180px;
+	margin-right: 50px;
+	margin-left: 350px;
+	position: fixed;
+}
+/*  */
+
+
+
+
+/* Galeria */
+.galeria{
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 90px;
+	display: inline-flex;
+}
+.fotot{
+	margin: 10px 40px 15px 40px;
+	box-shadow: 20px 20px 20px 0 black;
+}
+#slideshowpas{
+	display: none;
+}
+.slideshowbtn{
+	border: 1px hidden;
+	border-radius: 50%; 
+	background-color: rgba(145, 145, 145,0.8); 
+	margin: 20px; 
+	padding: 10px; 
+	width: 50px; 
+	height: 50px; 
+	margin-top: 150px; 
+	cursor: pointer;
+}
+/*  */
+
+
+
+
+/* Kontakti */
+.kontakti{
+	margin-top: 120px !important;
+	margin: auto;
+	width: fit-content;
+	padding: 50px;
+	border-radius: 28px;
+	box-shadow: 0 14px 21px black;
+	background-color: rgba(255,255,255, 0.5);
+}
+.kontaktbt{
+	margin-left: 62px;
+	cursor: pointer;
+}
+input[type=text], textarea{
+	background-color: rgba(255,255,255, 0.9);
+}
+/*  */
+
+
+
+
+/* Per ne */
+.perne{
+	margin: 170px 50px 0 50px;
+}
+.korniza{
+	border: 1px solid grey;
+	border-radius: 0 15px 15px 0;
+	box-shadow: 0 14px 21px black;
+	margin: 20px;
+	display: inline-flex;
+	background-color: rgba(255,255,255, 0.5);
+}
+/*  */
+
+
+
+
+/* Log-in */
+.login{
+	margin-top: 120px !important;
+	margin: auto;
+	width: fit-content;
+	padding: 50px;
+	border-radius: 28px;
+	box-shadow: 0 14px 21px black;
+	background-color: rgba(255,255,255, 0.5);
+}
+form> label{
+	float: left;
+}
+form >  input{
+	margin: 15px 5px 5px 0;
+	padding: 19px;
+	border-radius: 15px;
+	border: 1px hidden;
+}
+.loginbt{
+	background-color: lawngreen;
+	padding: 18px;
+	cursor: pointer;
+	border: 1px none;
+	border-radius: 20px;
+}
+/*  */
+
+
